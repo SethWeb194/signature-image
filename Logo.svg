@@ -1,0 +1,13 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient-refined" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="5%" style="stop-color:#00F0FF; stop-opacity:1" />  <stop offset="25%" style="stop-color:#0047AB; stop-opacity:1" /> <stop offset="60%" style="stop-color:#6A0DAD; stop-opacity:1" /> <stop offset="100%" style="stop-color:#FF00A2; stop-opacity:1" /> </linearGradient>
+  </defs>
+
+  <polyline points="20,40 160,40 60,160"
+            fill="none"
+            stroke="url(#gradient-refined)"
+            stroke-width="30"
+            stroke-linecap="round"
+            stroke-linejoin="round" />
+</svg>
